@@ -37,6 +37,7 @@ section {
 	float: left;
 	padding-bottom: 15px;
 	width: 50%;
+    
 }
 .about-me img {
 	float: right;
@@ -62,10 +63,24 @@ section {
 }
 
 
-@media only screen and (max-width: 768px) {
-	/* Add your code here */
+@media (max-width: 768px) { body
+    {color:red;} #img2 {width: 50px;} .blink_me {
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    
+    -moz-animation-name: blinker;
+    -moz-animation-duration: 1s;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;
+    
+    animation-name: blinker;
+    animation-duration: 1s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    
 }
 
-@media only screen and (max-width: 640px) {
-	/* Add your code here */
-}
+@media (max-width: 640px) { body {color: green; font-size: 10px; height: auto;} #img1{position: relative;  top: 70px; left:190px; flex: auto; width: 150px;} article{font-weight: 700;}
+	
