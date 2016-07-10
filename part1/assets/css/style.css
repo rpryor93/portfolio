@@ -826,7 +826,7 @@ Resume Timeline
 }
 .timeline-heading span{
     display: block;
-    font-weight: 700;
+    font-weight:700 ;
     margin-bottom: 20px;
 }
 
