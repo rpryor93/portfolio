@@ -65,5 +65,5 @@ section {
 
 @media (max-width: 768px) { .content-wrapper{background-color: blue;height: 600px} .paragraph {font-size: 12px; position: relative; top:0px;}.connect{box-sizing: content-box;}aside{position: relative; top:400px; right: 300px;} #img1 {position: relative; right: 0px}
 
-    @media (max-width: 640px) { .content-wrapper {background-color: limegreen;} aside }
-	
+    @media (max-width: 640px) { .content-wrapper {background-color: limegreen;} #img1 {width: 100%} aside {position: fixed; top: 470px; height: 50}
+    }
